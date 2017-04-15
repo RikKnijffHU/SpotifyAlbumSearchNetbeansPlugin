@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="test">
+                <file name="klsd" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--main.SpotifyAlbumSearch-->
+                    <attr name="hint.originalPublicID" stringvalue="-//test//klsd//EN"/>
+                </file>
+            </folder>
+            <folder name="main">
+                <file name="spotify" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--main.SpotifyAlbumSearch-->
+                    <attr name="hint.originalPublicID" stringvalue="-//main//spotify//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="main">
+                <file name="SpotifyAlbumSearch">
+                    <!--main.SpotifyAlbumSearch-->
+                    <attr name="settings.providerPath" stringvalue="xml/lookups//main/spotify.instance"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="test">
+                <file name="klsd.instance">
+                    <!--main.SpotifyAlbumSearch-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="main.SpotifyAlbumSearch"/>
+                    <attr name="settings.instanceOf" stringvalue="main.SpotifyAlbumSearch"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+            <folder name="main">
+                <file name="spotify.instance">
+                    <!--main.SpotifyAlbumSearch-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="main.SpotifyAlbumSearch"/>
+                    <attr name="settings.instanceOf" stringvalue="main.SpotifyAlbumSearch"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="test-klsdTopComponent.shadow">
+                <!--main.SpotifyAlbumSearch-->
+                <attr name="originalFile" stringvalue="Actions/Window/test-klsdTopComponent.instance"/>
+            </file>
+            <file name="main-klsdTopComponent.shadow">
+                <!--main.SpotifyAlbumSearch-->
+                <attr name="originalFile" stringvalue="Actions/Window/main-klsdTopComponent.instance"/>
+            </file>
+            <file name="main-spotifyTopComponent.shadow">
+                <!--main.SpotifyAlbumSearch-->
+                <attr name="originalFile" stringvalue="Actions/Window/main-spotifyTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="Spotify_Album_Search.settings">
+                <!--main.SpotifyAlbumSearch--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="main.SpotifyAlbumSearch"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="output">
+                <file name="Spotify_Album_Search.wstcref">
+                    <!--main.SpotifyAlbumSearch--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="Spotify_Album_Search"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="test-klsdTopComponent.instance">
+                <!--main.SpotifyAlbumSearch-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="main.SpotifyAlbumSearch"/>
+                <attr name="preferredID" stringvalue="klsdTopComponent"/>
+                <attr bundlevalue="main.Bundle#CTL_klsdAction" name="displayName"/>
+            </file>
+            <file name="main-klsdTopComponent.instance">
+                <!--main.SpotifyAlbumSearch-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="main.SpotifyAlbumSearch"/>
+                <attr name="preferredID" stringvalue="klsdTopComponent"/>
+                <attr bundlevalue="main.Bundle#CTL_klsdAction" name="displayName"/>
+            </file>
+            <file name="main-spotifyTopComponent.instance">
+                <!--main.SpotifyAlbumSearch-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="main.SpotifyAlbumSearch"/>
+                <attr name="preferredID" stringvalue="klsdTopComponent"/>
+                <attr bundlevalue="main.Bundle#CTL_klsdAction" name="displayName"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

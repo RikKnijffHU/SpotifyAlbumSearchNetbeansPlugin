@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="main">
+    <module_version install_time="1492253569620" last="true" origin="installer" specification_version="1.0">
+        <file crc="142132898" name="config/Modules/main.xml"/>
+        <file crc="130122219" name="modules/ext/com.google.guava_1.6.0.jar"/>
+        <file crc="4087290814" name="modules/ext/commons-beanutils-1.9.3.jar"/>
+        <file crc="1487795355" name="modules/ext/commons-codec-1.10.jar"/>
+        <file crc="1260452356" name="modules/ext/commons-io-2.5.jar"/>
+        <file crc="1049092013" name="modules/ext/commons-lang-2.6.jar"/>
+        <file crc="896945571" name="modules/ext/ezmorph-1.0.6.jar"/>
+        <file crc="2878195793" name="modules/ext/google-collect-1.0.jar"/>
+        <file crc="3920834815" name="modules/ext/google-common.jar"/>
+        <file crc="3432643344" name="modules/ext/guava-10.0.jar"/>
+        <file crc="639457742" name="modules/ext/json-lib-2.4-jdk15.jar"/>
+        <file crc="3398414267" name="modules/ext/org-apache-commons-logging.jar"/>
+        <file crc="860279338" name="modules/ext/org.apache.commons.collections.jar"/>
+        <file crc="774821190" name="modules/ext/org.apache.commons.httpclient.jar"/>
+        <file crc="3685524556" name="modules/ext/protobuf-java-3.2.0.jar"/>
+        <file crc="612224928" name="modules/ext/spotify-web-api-java-1.5.0.jar"/>
+        <file crc="82801009" name="modules/main.jar"/>
+    </module_version>
+</module>
